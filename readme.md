@@ -4,17 +4,16 @@
 
 ## :question: What is this Repository about?
 
-- This repository contains the example code for running Flutter App mobile automation tests for Android and iOS applications  
-  using [Appium 2.0](https://appium.github.io/appium/docs/en/2.0/intro/)
+- This repository contains the example code for running Flutter App mobile automation tests for Android and iOS applications using [Appium 2.0](https://appium.github.io/appium/docs/en/2.0/intro/)
 - [Provider Shopper Flutter sample app](https://github.com/flutter/samples/tree/main/provider_shopper) is used as a demo mobile application
   run tests
 - This repo uses `Maven` as build tool and `TestNG` testing framework to run the tests
 - Android application Tests are run on [LambdaTest Cloud grid](http://www.lambdatest.com?fp_ref=faisal58) on Real Android Devices
-- For iOS Simulator app is build and tests are run on Simulators on [LambdaTest Cloud grid](http://www.lambdatest.com?fp_ref=faisal58). 
+- For iOS Simulator app is build and tests are run on Simulators on [LambdaTest Cloud grid](http://www.lambdatest.com?fp_ref=faisal58) 
 
 ## Talking more about the Scenarios Covered in this project:
 
-- I have tried to answer the below questions by providing working code example in this repo:
+I have tried to answer the below questions by providing working code example in this repo:
 
 1. How to run mobile automation tests using [Appium Flutter Driver](https://github.com/appium-userland/appium-flutter-driver) and [Appium Flutter Finder](https://github.com/ashwithpoojary98/javaflutterfinder)
 
@@ -50,7 +49,7 @@
 ## :computer: Paid Trainings
 
 Contact me for Paid trainings related to Test Automation and Software Testing,
-mail me @ `mohammadfaisalkhatri@gmail.com` or ping me on [LinkedIn](https://www.linkedin.com/in/faisalkhatri/)
+mail me @`mohammadfaisalkhatri@gmail.com` or ping me on [LinkedIn](https://www.linkedin.com/in/faisalkhatri/)
 
 ## :thought_balloon: Checkout the blogs related to Testing on the following links:
 - [Medium Blogs](https://medium.com/@iamfaisalkhatri)
