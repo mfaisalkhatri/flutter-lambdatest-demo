@@ -4,6 +4,7 @@ target/
 !**/src/test/**/target/
 
 ### IntelliJ IDEA ###
+.idea/
 .idea/InspectionProfiles
 .idea/sonarlint
 .idea/modules.xml
