@@ -56,17 +56,16 @@ public class IOSDriverManager {
         ltOptions.put("platformName", platform);
         ltOptions.put("deviceName", deviceName);
         ltOptions.put("platformVersion", platformVersion);
+        ltOptions.put("isRealMobile", false);
         ltOptions.put("app", app);
         ltOptions.put("automationName", "Flutter");
         ltOptions.put("build", buildName);
         ltOptions.put("name", testName);
         ltOptions.put("w3c", true);
-        ltOptions.put("isRealMobile", false);
         ltOptions.put("autoAcceptAlerts", true);
-        ltOptions.put("plugin", "java-testNG");
-        ltOptions.put("visual", true);
+        ltOptions.put("video", true);
         ltOptions.put("console", true);
-        ltOptions.put("devicelog", true);
+        ltOptions.put("network", false);
         return ltOptions;
     }
 
