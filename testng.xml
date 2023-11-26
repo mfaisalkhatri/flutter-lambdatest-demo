@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Lambda tests Mobile automation test suite"  >
+    <test name="Android Flutter app - Provider Shopper Tests " enabled="true">
+        <parameter name="buildName" value="Android Flutter app Build"/>
+        <parameter name="testName" value="Provider shopper android app tests"/>
+        <parameter name="app" value="lt://APP10160161171700638856308564"/>
+        <parameter name="platformName" value="ANDROID"/>
+        <parameter name="version" value="13.0"/>
+        <parameter name="device" value="Galaxy S21 5G"/>
+        <classes>
+            <class name="io.github.mfaisalkhatri.tests.FlutterSampleAndroidAppTests">
+                <methods>
+                    <include name="testProviderShopperApp"/>
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+    <test name="iOS Flutter app - Provider Shopper Tests" enabled="false">
+        <parameter name="buildName" value="IOS Build"/>
+        <parameter name="testName" value="Provider Shopper IOS App tests"/>
+        <parameter name="app" value="lt://APP1016023161701008777380242"/>
+        <parameter name="platformName" value="IOS"/>
+        <parameter name="version" value="16"/>
+        <parameter name="device" value="iPhone 14"/>
+        <classes>
+            <class name="io.github.mfaisalkhatri.tests.FlutterSampleIOSAppTests">
+                <methods>
+                    <include name="testProviderShopperApp"/>
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
