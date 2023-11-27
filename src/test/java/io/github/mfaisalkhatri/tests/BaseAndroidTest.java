@@ -16,7 +16,6 @@ public class BaseAndroidTest {
     @BeforeClass(alwaysRun = true)
     public void setupTest(final String buildName, final String testName, @Optional("app") final String app, final Platform platform, final String platformVersion,
                           final String deviceName) {
-        if(platform.is(Platform.ANDROID)) {
             this.androidDriverManager = AndroidDriverManager.builder()
                     .buildName(buildName)
                     .testName(testName)
@@ -26,9 +25,6 @@ public class BaseAndroidTest {
                     .deviceName(deviceName)
                     .build()
                     .createAndroidDriver();
-        } else if(platform.is(Platform.IOS)){
-            System.out.println("Platform is not supported!");
-        }
     }
 
     @AfterClass(alwaysRun = true)

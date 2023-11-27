@@ -15,17 +15,19 @@ import static java.text.MessageFormat.format;
 @Builder
 public class AndroidDriverManager {
 
-    private static final ThreadLocal<AndroidDriver> DRIVER = new ThreadLocal<>();
-
     private String buildName;
     private String testName;
     private Platform platform;
     private String platformVersion;
     private String deviceName;
     private String app;
+
+
+    private static final ThreadLocal<AndroidDriver> DRIVER = new ThreadLocal<>();
     private static final String LT_USERNAME = System.getProperty("LT_USERNAME");
     private static final String LT_ACCESS_KEY = System.getProperty("LT_ACCESS_KEY");
     private static final String GRID_URL = "@mobile-hub.lambdatest.com/wd/hub";
+
 
 
     public AndroidDriverManager createAndroidDriver() {
@@ -76,7 +78,6 @@ public class AndroidDriverManager {
         capabilities.setCapability("lt:options", ltOptions());
         return capabilities;
     }
-
     private void setDriver(final AndroidDriver driver) {
         AndroidDriverManager.DRIVER.set(driver);
     }
@@ -86,6 +87,4 @@ public class AndroidDriverManager {
                 .timeouts()
                 .implicitlyWait(Duration.ofSeconds(20));
     }
-
-
 }
