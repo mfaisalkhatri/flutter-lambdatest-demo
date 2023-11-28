@@ -13,9 +13,9 @@ public class BaseIOSTest {
 
     @Parameters({"buildName", "testName", "app", "platformName", "version", "device"})
     @BeforeClass(alwaysRun = true)
-    public void setupTest(String buildName, String testName, @Optional("app") String app, Platform platform, String platformVersion,
-                          String deviceName) {
-            iosDriverManager = iosDriverManager.builder()
+    public void setupTest(final String buildName, final String testName, @Optional("app") final String app, final Platform platform, final String platformVersion,
+                          final String deviceName) {
+        this.iosDriverManager = IOSDriverManager.builder()
                     .buildName(buildName)
                     .testName(testName)
                     .app(app)
