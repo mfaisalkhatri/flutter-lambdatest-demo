@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Lambda tests Mobile automation test suite"  >
-    <test name="Android Flutter app - Provider Shopper Tests " enabled="true">
+    <test name="Android Flutter app - Provider Shopper Tests ">
         <parameter name="buildName" value="Android Flutter app Build"/>
         <parameter name="testName" value="Provider shopper android app tests"/>
-        <parameter name="app" value="lt://APP10160161171700638856308564"/>
+        <parameter name="app" value="lt://APP1016020161712129328993636"/>
         <parameter name="platformName" value="ANDROID"/>
         <parameter name="version" value="13.0"/>
         <parameter name="device" value="Galaxy S21 5G"/>
