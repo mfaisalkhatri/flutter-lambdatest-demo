@@ -15,7 +15,7 @@
                 </methods>
             </class>
         </classes>
-    </test> <!-- Test -->
+    </test>
     <test name="iOS Flutter app - Provider Shopper Tests" enabled="false">
         <parameter name="buildName" value="IOS Build"/>
         <parameter name="testName" value="Provider Shopper IOS App tests"/>
@@ -30,5 +30,5 @@
                 </methods>
             </class>
         </classes>
-    </test> <!-- Test -->
-</suite> <!-- Suite -->
+    </test>
+</suite>
